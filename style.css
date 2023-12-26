@@ -3,6 +3,7 @@ body {
     margin: 0px;
     padding: 0;
     display: flex;
+    /* gap: 16px; */
 
     /* Debugging */
     background-color: bisque;
@@ -43,46 +44,109 @@ body {
 
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    align-items: center;
+    gap: 32px;
 
     /* Debugging */
     background-color: yellow;
 }
 
 .products-section {
-    flex: 1 1 auto;
-    
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+
+    /* Debugging */
+    background-color: red;
+}
+
+.products-section-title {
+    text-align: center;
+}
+
+.products {
+    /* flex: 1 1 auto; */
+    
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
 
     /* Debugging */
     background-color: blue;
 }
 
-.products-section-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.all-products {
-    display: flex;
-}
-
 .product-box {
-    margin: 16px;
-    background-color: aqua;
+    /* margin: 16px; */
+    width: 300px;
+
+    /* Debugging */
+    background-color: greenyellow;
 }
 
 .customer-reviews {
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     /* Debugging */
     background-color: purple;
 }
 
+.customer-reviews p {
+
+}
+
+.customer-review-content {
+    padding: 0;
+    /* margin: 16px; */
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer {
+    text-align: right;
+}
+
+
+
 .store-call-to-action {
+    /* margin: 16px; */
+    
+    flex: 1 1 auto;
+    /* width: 100vw; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Debugging */
+    background-color: blueviolet;
+    border: 2px;
+}
+
+.call-to-action-emphasis {
+    /* margin: 48px; */
+    padding: 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    /* Debugging */
+    background-color: coral;
+}
+
+.call-to-action-text {
+    flex: 2 1 auto;
+}
+
+.storefront-button {
     flex: 1 1 auto;
 }
 
