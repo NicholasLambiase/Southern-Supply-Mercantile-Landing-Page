@@ -6,20 +6,20 @@ body {
     /* gap: 16px; */
 
     /* Debugging */
-    background-color: bisque;
-    /* color: white; */
+    /* background-color: #040509; */
+    color: #eeefeb;
 }
 
 .webpage-content {
     flex: 1 1 auto;
-    background-color: aquamarine;
+    background-color: #040509;
 
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    background-color: brown;
+
 }
 
 .header ul {
@@ -28,10 +28,10 @@ body {
     list-style: none;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     /* Debugging */
-    background-color: green;
+    /* background-color: green; */
 }
 
 .store-banner {
@@ -44,11 +44,11 @@ body {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 32px;
 
     /* Debugging */
-    background-color: yellow;
+    /* background-color: #727a66; */
 }
 
 .products-section {
@@ -57,7 +57,7 @@ body {
     /* justify-content: center; */
 
     /* Debugging */
-    background-color: red;
+    /* background-color: #727a66; */
 }
 
 .products-section-title {
@@ -68,33 +68,41 @@ body {
     /* flex: 1 1 auto; */
     
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
 
     /* Debugging */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .product-box {
-    /* margin: 16px; */
-    width: 300px;
-
-    /* Debugging */
-    background-color: greenyellow;
-}
-
-.customer-reviews {
-    /* flex: 1 1 auto; */
-    max-width: 500px;
+    flex: 1 1 auto;
+    width: auto;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
     /* Debugging */
-    background-color: purple;
+    /* background-color: greenyellow; */
+}
+
+.product-box img {
+    width: 100px;
+    height: auto;
+}
+
+.customer-reviews {
+    /* flex: 1 1 auto; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Debugging */
+    background-color: #927c49;
 }
 
 .customer-reviews p {
@@ -104,42 +112,42 @@ body {
 .customer-review-content {
     padding: 0;
     /* margin: 16px; */
+    max-width: 500px;
     
     display: flex;
     flex-direction: column;
+}
+
+.customer-review-title {
+    text-align: center;
 }
 
 .reviewer {
     text-align: right;
 }
 
-
-
 .store-call-to-action {
     /* margin: 16px; */
     
     flex: 1 1 auto;
-    /* width: 100vw; */
+    
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     /* Debugging */
-    background-color: blueviolet;
-    border: 2px;
+    /* background-color: blueviolet; */
 }
 
 .call-to-action-emphasis {
-    /* margin: 48px; */
+    background-color: #727a66;
+    width: 80vw;
     padding: 16px;
 
     display: flex;
     align-items: center;
     gap: 16px;
-
-    /* Debugging */
-    background-color: coral;
 }
 
 .call-to-action-text {
@@ -160,5 +168,5 @@ body {
     align-items: center;
 
     /* Debugging */
-    background-color: lightpink;
+    /* background-color: lightpink; */
 }
