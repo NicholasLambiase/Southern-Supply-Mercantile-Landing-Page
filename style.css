@@ -34,7 +34,6 @@ a {
 }
 
 a:visited {
-    
     color: white;
 }
 
@@ -54,9 +53,6 @@ a:visited {
 
     display: flex;
     justify-content: space-around;
-
-    /* Debugging */
-    /* background-color: green; */
 }
 
 .store-banner {
@@ -70,9 +66,6 @@ a:visited {
     display: flex;
     flex-direction: column;
     gap: 32px;
-
-    /* Debugging */
-    /* background-color: #727a66; */
 }
 
 .products-section {
@@ -86,16 +79,11 @@ a:visited {
 }
 
 .products {
-    /* flex: 2 1 0; */
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 32px;
-
-    /* Debugging */
-    /* background-color: blue; */
 }
 
 .product-box {
@@ -117,15 +105,13 @@ a:visited {
 }
 
 .customer-reviews {
+    background-color: #4f0007;
     margin: 0px;
     padding: 16px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* Debugging */
-    background-color: #4f0007;
 }
 
 .customer-review-content {
@@ -149,9 +135,6 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* Debugging */
-    /* background-color: blueviolet; */
 }
 
 .call-to-action-emphasis {
@@ -161,36 +144,26 @@ a:visited {
 
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
     gap: 16px;
 }
 
 .call-to-action-text {
     flex: 2 1 auto;
-
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: start; */
 }
 
 .storefront-button {
-    flex: 1 0 auto;
-    margin: 8px;
     background-color:#8a8a8a;
-    border: 2px solid #eeefeb;
-    
+    margin: 8px;
+    flex: 1 0 auto;
 }
 
 .footer {
-    flex: 1 1 auto;
     margin: 8px;
     padding: 0;
+    flex: 1 1 auto;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* Debugging */
-    /* background-color: lightpink; */
 }
