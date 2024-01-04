@@ -47,6 +47,10 @@ a:visited {
     font-weight: 600;
 }
 
+.header {
+    width: 100vw;
+}
+
 .header ul {
     margin: 8px;
     padding: 8px;
@@ -54,6 +58,11 @@ a:visited {
 
     display: flex;
     justify-content: space-around;
+}
+
+.header li {
+    width: 100px;
+    text-align: center;
 }
 
 .store-banner {

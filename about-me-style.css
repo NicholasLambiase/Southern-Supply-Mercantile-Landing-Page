@@ -46,6 +46,15 @@ a:visited {
     color: #eeefeb;
 }
 
+.header {
+    width: 100vw;
+}
+
+.header li {
+    width: 100px;
+    text-align: center;
+}
+
 .header ul {
     margin: 8px;
     padding: 8px;
