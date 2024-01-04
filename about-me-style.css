@@ -93,6 +93,17 @@ a:visited {
     max-width: 750px;
 }
 
+.trinity-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.trinity-social-links img {
+    width: 50px;
+}
+
 .footer {
     margin: 8px;
     padding: 16px;
@@ -113,5 +124,5 @@ a:visited {
 }
 
 .footer .creator-link img {
-    width: 50px;
+    width: 32px;
 }
