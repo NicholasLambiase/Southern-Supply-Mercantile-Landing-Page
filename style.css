@@ -161,11 +161,23 @@ a:visited {
 
 .footer {
     margin: 8px;
-    padding: 0;
+    padding: 16px;
     flex: 1 1 auto;
 
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+    gap: 16px;
+}
+
+.creator-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer .creator-link img {
+    width: 50px;
 }

@@ -23,6 +23,14 @@ body {
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 4px;
 }
 
 a {
@@ -47,22 +55,63 @@ a:visited {
     justify-content: space-around;
 
     /* Debugging */
-    background-color: darkblue;
+    /* background-color: darkblue; */
 }
 
 .about-me-box {
+    margin: 16px 10vw;
     flex: 1 1 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.trinity-headshot {
+    border-radius: 50%;
+    margin: 8px;
+    width: 50vw;
+    max-width: 350px;
+
+    height: 50vw;
+    max-height: 350px;
+
+    border: 10px solid #eeefeb;
+}
+
+.store-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.trinity-bio {
+    max-width: 750px;
 }
 
 .footer {
     margin: 8px;
-    padding: 0;
+    padding: 16px;
+    /* flex: 1 1 auto; */
 
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    /* flex-direction: column; */
+    justify-content: center;
     align-items: center;
+    gap: 16px;
+}
 
-    /* Debugging */
-    /* background-color: darkred; */
+.creator-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer .creator-link img {
+    width: 50px;
 }
