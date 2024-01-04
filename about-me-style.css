@@ -128,7 +128,7 @@ a:visited {
 .made-by-labels {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    row-gap: 4px;
 }
 
 .made-by-labels p {
