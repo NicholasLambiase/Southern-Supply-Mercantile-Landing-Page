@@ -125,6 +125,16 @@ a:visited {
     gap: 16px;
 }
 
+.made-by-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.made-by-labels p {
+    margin: 0;
+}
+
 .creator-links {
     display: flex;
     justify-content: center;

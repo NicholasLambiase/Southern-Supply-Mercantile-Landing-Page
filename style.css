@@ -174,13 +174,24 @@ a:visited {
     flex: 1 1 auto;
 
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
 
+.made-by-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.made-by-labels p {
+    margin: 0;
+}
+
 .creator-links {
+    /* flex: 1 1 auto; */
+    
     display: flex;
     justify-content: center;
     align-items: center;
